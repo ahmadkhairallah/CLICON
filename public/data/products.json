@@ -1,0 +1,554 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": { "en": "Air Conditioners", "ar": "مكيفات الهواء" },
+      "slug": "air-conditioners",
+      "products": [
+        {
+          "id": "1-1",
+          "name": {
+            "en": "LG Dual Inverter Air Conditioner",
+            "ar": "مكيف هواء إل جي دوال إنفيرتر"
+          },
+          "brand": "LG",
+          "category": "Air Conditioners",
+          "price": 500,
+          "currency": "USD",
+          "discount": 10,
+          "available": true,
+          "stock": 30,
+          "description": {
+            "en": "Energy-efficient air conditioner with dual inverter technology for faster cooling.",
+            "ar": "مكيف هواء موفر للطاقة بتقنية الدوال إنفيرتر للتبريد الأسرع."
+          },
+          "images": ["/images/air-conditioners/Image(1).png"],
+          "features": {
+            "capacity": "12000 BTU",
+            "energy_rating": "A++",
+            "cooling_speed": "Fast"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 120 },
+          "offers": [
+            { "type": "discount", "value": "10%", "expires": "2025-03-01" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": { "en": "Cameras", "ar": "الكاميرات" },
+      "slug": "cameras",
+      "products": [
+        {
+          "id": "2-1",
+          "name": {
+            "en": "Canon EOS R5 - Image 1",
+            "ar": "كانون EOS R5 - صورة 1"
+          },
+          "brand": "Canon",
+          "category": "Cameras",
+          "price": 3800,
+          "currency": "USD",
+          "discount": 5,
+          "available": true,
+          "stock": 15,
+          "description": {
+            "en": "A high-performance mirrorless camera with 8K video recording and advanced autofocus.",
+            "ar": "كاميرا ميرورليس عالية الأداء مع تسجيل فيديو 8K وتركيز تلقائي متقدم."
+          },
+          "images": ["/images/cameras/Image(2).png"],
+          "features": {
+            "sensor": "Full Frame",
+            "video_resolution": "8K",
+            "autofocus": "Dual Pixel CMOS AF"
+          },
+          "ratings": { "average": 4.9, "total_reviews": 300 },
+          "offers": [
+            { "type": "discount", "value": "5%", "expires": "2025-02-28" }
+          ]
+        },
+        {
+          "id": "2-2",
+          "name": {
+            "en": "Canon EOS R5 - Image 2",
+            "ar": "كانون EOS R5 - صورة 2"
+          },
+          "brand": "Canon",
+          "category": "Cameras",
+          "price": 3800,
+          "currency": "USD",
+          "discount": 5,
+          "available": true,
+          "stock": 15,
+          "description": {
+            "en": "A high-performance mirrorless camera with 8K video recording and advanced autofocus.",
+            "ar": "كاميرا ميرورليس عالية الأداء مع تسجيل فيديو 8K وتركيز تلقائي متقدم."
+          },
+          "images": ["/images/cameras/Image(3).png"],
+          "features": {
+            "sensor": "Full Frame",
+            "video_resolution": "8K",
+            "autofocus": "Dual Pixel CMOS AF"
+          },
+          "ratings": { "average": 4.9, "total_reviews": 300 },
+          "offers": [
+            { "type": "discount", "value": "5%", "expires": "2025-02-28" }
+          ]
+        },
+        {
+          "id": "2-3",
+          "name": {
+            "en": "Canon EOS R5 - Image 3",
+            "ar": "كانون EOS R5 - صورة 3"
+          },
+          "brand": "Canon",
+          "category": "Cameras",
+          "price": 3800,
+          "currency": "USD",
+          "discount": 5,
+          "available": true,
+          "stock": 15,
+          "description": {
+            "en": "A high-performance mirrorless camera with 8K video recording and advanced autofocus.",
+            "ar": "كاميرا ميرورليس عالية الأداء مع تسجيل فيديو 8K وتركيز تلقائي متقدم."
+          },
+          "images": ["/images/cameras/Image(4).png"],
+          "features": {
+            "sensor": "Full Frame",
+            "video_resolution": "8K",
+            "autofocus": "Dual Pixel CMOS AF"
+          },
+          "ratings": { "average": 4.9, "total_reviews": 300 },
+          "offers": [
+            { "type": "discount", "value": "5%", "expires": "2025-02-28" }
+          ]
+        },
+        {
+          "id": "2-4",
+          "name": {
+            "en": "Canon EOS R5 - Image 4",
+            "ar": "كانون EOS R5 - صورة 4"
+          },
+          "brand": "Canon",
+          "category": "Cameras",
+          "price": 3800,
+          "currency": "USD",
+          "discount": 5,
+          "available": true,
+          "stock": 15,
+          "description": {
+            "en": "A high-performance mirrorless camera with 8K video recording and advanced autofocus.",
+            "ar": "كاميرا ميرورليس عالية الأداء مع تسجيل فيديو 8K وتركيز تلقائي متقدم."
+          },
+          "images": ["/images/cameras/Image(5).png"],
+          "features": {
+            "sensor": "Full Frame",
+            "video_resolution": "8K",
+            "autofocus": "Dual Pixel CMOS AF"
+          },
+          "ratings": { "average": 4.9, "total_reviews": 300 },
+          "offers": [
+            { "type": "discount", "value": "5%", "expires": "2025-02-28" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": { "en": "Computers", "ar": "أجهزة الكمبيوتر" },
+      "slug": "computers",
+      "products": [
+        {
+          "id": "3-1",
+          "name": {
+            "en": "Apple MacBook Pro 16-inch - Image 1",
+            "ar": "آبل ماك بوك برو 16 بوصة - صورة 1"
+          },
+          "brand": "Apple",
+          "category": "Computers",
+          "price": 2400,
+          "currency": "USD",
+          "discount": 7,
+          "available": true,
+          "stock": 10,
+          "description": {
+            "en": "Powerful MacBook with M1 Pro chip, 16-inch display, and excellent battery life.",
+            "ar": "ماك بوك قوي بشريحة M1 Pro وشاشة 16 بوصة وعمر بطارية ممتاز."
+          },
+          "images": ["/images/computers/Image(10).png"],
+          "features": {
+            "processor": "M1 Pro",
+            "screen_size": "16 inches",
+            "battery_life": "21 hours"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 180 },
+          "offers": [
+            { "type": "discount", "value": "7%", "expires": "2025-03-05" }
+          ]
+        },
+        {
+          "id": "3-3",
+          "name": {
+            "en": "Apple MacBook Pro 16-inch - Image 3",
+            "ar": "آبل ماك بوك برو 16 بوصة - صورة 3"
+          },
+          "brand": "Apple",
+          "category": "Computers",
+          "price": 2400,
+          "currency": "USD",
+          "discount": 7,
+          "available": true,
+          "stock": 10,
+          "description": {
+            "en": "Powerful MacBook with M1 Pro chip, 16-inch display, and excellent battery life.",
+            "ar": "ماك بوك قوي بشريحة M1 Pro وشاشة 16 بوصة وعمر بطارية ممتاز."
+          },
+          "images": ["/images/computers/Image(6).png"],
+          "features": {
+            "processor": "M1 Pro",
+            "screen_size": "16 inches",
+            "battery_life": "21 hours"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 180 },
+          "offers": [
+            { "type": "discount", "value": "7%", "expires": "2025-03-05" }
+          ]
+        },
+        {
+          "id": "3-4",
+          "name": {
+            "en": "Apple MacBook Pro 16-inch - Image 4",
+            "ar": "آبل ماك بوك برو 16 بوصة - صورة 4"
+          },
+          "brand": "Apple",
+          "category": "Computers",
+          "price": 2400,
+          "currency": "USD",
+          "discount": 7,
+          "available": true,
+          "stock": 10,
+          "description": {
+            "en": "Powerful MacBook with M1 Pro chip, 16-inch display, and excellent battery life.",
+            "ar": "ماك بوك قوي بشريحة M1 Pro وشاشة 16 بوصة وعمر بطارية ممتاز."
+          },
+          "images": ["/images/computers/Image(7).png"],
+          "features": {
+            "processor": "M1 Pro",
+            "screen_size": "16 inches",
+            "battery_life": "21 hours"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 180 },
+          "offers": [
+            { "type": "discount", "value": "7%", "expires": "2025-03-05" }
+          ]
+        },
+        {
+          "id": "3-5",
+          "name": {
+            "en": "Apple MacBook Pro 16-inch - Image 5",
+            "ar": "آبل ماك بوك برو 16 بوصة - صورة 5"
+          },
+          "brand": "Apple",
+          "category": "Computers",
+          "price": 2400,
+          "currency": "USD",
+          "discount": 7,
+          "available": true,
+          "stock": 10,
+          "description": {
+            "en": "Powerful MacBook with M1 Pro chip, 16-inch display, and excellent battery life.",
+            "ar": "ماك بوك قوي بشريحة M1 Pro وشاشة 16 بوصة وعمر بطارية ممتاز."
+          },
+          "images": ["/images/computers/Image(8).png"],
+          "features": {
+            "processor": "M1 Pro",
+            "screen_size": "16 inches",
+            "battery_life": "21 hours"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 180 },
+          "offers": [
+            { "type": "discount", "value": "7%", "expires": "2025-03-05" }
+          ]
+        },
+        {
+          "id": "3-6",
+          "name": {
+            "en": "Apple MacBook Pro 16-inch - Image 6",
+            "ar": "آبل ماك بوك برو 16 بوصة - صورة 6"
+          },
+          "brand": "Apple",
+          "category": "Computers",
+          "price": 2400,
+          "currency": "USD",
+          "discount": 7,
+          "available": true,
+          "stock": 10,
+          "description": {
+            "en": "Powerful MacBook with M1 Pro chip, 16-inch display, and excellent battery life.",
+            "ar": "ماك بوك قوي بشريحة M1 Pro وشاشة 16 بوصة وعمر بطارية ممتاز."
+          },
+          "images": ["/images/computers/Image(9).png"],
+          "features": {
+            "processor": "M1 Pro",
+            "screen_size": "16 inches",
+            "battery_life": "21 hours"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 180 },
+          "offers": [
+            { "type": "discount", "value": "7%", "expires": "2025-03-05" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": { "en": "Drones", "ar": "الطائرات بدون طيار" },
+      "slug": "drones",
+      "products": [
+        {
+          "id": "4-1",
+          "name": {
+            "en": "DJI Air 2S - Image 1",
+            "ar": "دي جي آي إير 2S - صورة 1"
+          },
+          "brand": "DJI",
+          "category": "Drones",
+          "price": 999,
+          "currency": "USD",
+          "discount": 15,
+          "available": true,
+          "stock": 50,
+          "description": {
+            "en": "Advanced drone with 5.4K camera and 31-minute flight time.",
+            "ar": "طائرة درون متطورة بكاميرا 5.4K ومدة طيران 31 دقيقة."
+          },
+          "images": ["/images/drones/Image(12).png"],
+          "features": {
+            "camera_resolution": "5.4K",
+            "flight_time": "31 minutes",
+            "range": "12 km"
+          },
+          "ratings": { "average": 4.7, "total_reviews": 220 },
+          "offers": [
+            { "type": "discount", "value": "15%", "expires": "2025-02-15" }
+          ]
+        },
+        {
+          "id": "4-2",
+          "name": {
+            "en": "DJI Air 2S - Image 2",
+            "ar": "دي جي آي إير 2S - صورة 2"
+          },
+          "brand": "DJI",
+          "category": "Drones",
+          "price": 999,
+          "currency": "USD",
+          "discount": 15,
+          "available": true,
+          "stock": 50,
+          "description": {
+            "en": "Advanced drone with 5.4K camera and 31-minute flight time.",
+            "ar": "طائرة درون متطورة بكاميرا 5.4K ومدة طيران 31 دقيقة."
+          },
+          "images": ["/images/drones/Image(13).png"],
+          "features": {
+            "camera_resolution": "5.4K",
+            "flight_time": "31 minutes",
+            "range": "12 km"
+          },
+          "ratings": { "average": 4.7, "total_reviews": 220 },
+          "offers": [
+            { "type": "discount", "value": "15%", "expires": "2025-02-15" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": { "en": "Headphones", "ar": "سماعات الرأس" },
+      "slug": "headphones",
+      "products": [
+        {
+          "id": "5-1",
+          "name": {
+            "en": "Sony WH-1000XM5 - Image 1",
+            "ar": "سوني WH-1000XM5 - صورة 1"
+          },
+          "brand": "Sony",
+          "category": "Headphones",
+          "price": 350,
+          "currency": "USD",
+          "discount": 20,
+          "available": true,
+          "stock": 60,
+          "description": {
+            "en": "Noise-canceling over-ear headphones with 30 hours of battery life. Perfect for long flights.",
+            "ar": "سماعات رأس فوق الأذن مع إلغاء الضوضاء و30 ساعة من عمر البطارية. مثالية للرحلات الطويلة."
+          },
+          "images": ["/images/headphones/Image(14).png"],
+          "features": {
+            "noise_canceling": "Yes",
+            "battery_life": "30 hours",
+            "connectivity": "Bluetooth"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 400 },
+          "offers": [
+            { "type": "discount", "value": "20%", "expires": "2025-02-10" }
+          ]
+        },
+        {
+          "id": "5-2",
+          "name": {
+            "en": "Sony WH-1000XM5 - Image 2",
+            "ar": "سوني WH-1000XM5 - صورة 2"
+          },
+          "brand": "Sony",
+          "category": "Headphones",
+          "price": 355,
+          "currency": "USD",
+          "discount": 18,
+          "available": true,
+          "stock": 58,
+          "description": {
+            "en": "Premium over-ear headphones with excellent sound quality and effective noise cancellation.",
+            "ar": "سماعات رأس فوق الأذن فاخرة بجودة صوت ممتازة وإلغاء ضوضاء فعال."
+          },
+          "images": ["/images/headphones/Image(15).png"],
+          "features": {
+            "noise_canceling": "Yes",
+            "battery_life": "28 hours",
+            "connectivity": "Bluetooth 5.0"
+          },
+          "ratings": { "average": 4.7, "total_reviews": 380 },
+          "offers": [
+            { "type": "discount", "value": "18%", "expires": "2025-02-15" }
+          ]
+        },
+        {
+          "id": "5-3",
+          "name": {
+            "en": "Sony WH-1000XM5 - Image 3",
+            "ar": "سوني WH-1000XM5 - صورة 3"
+          },
+          "brand": "Sony",
+          "category": "Headphones",
+          "price": 340,
+          "currency": "USD",
+          "discount": 25,
+          "available": true,
+          "stock": 65,
+          "description": {
+            "en": "Wireless noise-canceling headphones with long battery life, perfect for everyday use.",
+            "ar": "سماعات رأس لاسلكية مع إلغاء الضوضاء وعمر بطارية طويل، مثالية للاستخدام اليومي."
+          },
+          "images": ["/images/headphones/Image(16).png"],
+          "features": {
+            "noise_canceling": "Yes",
+            "battery_life": "32 hours",
+            "connectivity": "Bluetooth"
+          },
+          "ratings": { "average": 4.9, "total_reviews": 420 },
+          "offers": [
+            { "type": "discount", "value": "25%", "expires": "2025-02-20" }
+          ]
+        },
+        {
+          "id": "5-4",
+          "name": {
+            "en": "Sony WH-1000XM5 - Image 4",
+            "ar": "سوني WH-1000XM5 - صورة 4"
+          },
+          "brand": "Sony",
+          "category": "Headphones",
+          "price": 360,
+          "currency": "USD",
+          "discount": 15,
+          "available": true,
+          "stock": 55,
+          "description": {
+            "en": "Top-tier noise-canceling headphones with high-end features and sound clarity.",
+            "ar": "سماعات رأس متطورة مع إلغاء ضوضاء من الدرجة الأولى ووضوح صوت عالي."
+          },
+          "images": ["/images/headphones/image 4.png"],
+          "features": {
+            "noise_canceling": "Yes",
+            "battery_life": "30 hours",
+            "connectivity": "Bluetooth 5.1"
+          },
+          "ratings": { "average": 4.8, "total_reviews": 450 },
+          "offers": [
+            { "type": "discount", "value": "15%", "expires": "2025-02-25" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": { "en": "Keyboards", "ar": "لوحات المفاتيح" },
+      "slug": "keyboards",
+      "products": [
+        {
+          "id": "6-1",
+          "name": {
+            "en": "Logitech MX Keys - Image 1",
+            "ar": "لوجيتك MX Keys - صورة 1"
+          },
+          "brand": "Logitech",
+          "category": "Keyboards",
+          "price": 100,
+          "currency": "USD",
+          "discount": 10,
+          "available": true,
+          "stock": 40,
+          "description": {
+            "en": "Wireless mechanical keyboard with backlighting and long battery life.",
+            "ar": "لوحة مفاتيح ميكانيكية لاسلكية مع إضاءة خلفية وعمر بطارية طويل."
+          },
+          "images": ["/images/keyboards/Image(17).png"],
+          "features": {
+            "type": "Mechanical",
+            "backlit": "Yes",
+            "battery_life": "10 days"
+          },
+          "ratings": { "average": 4.7, "total_reviews": 150 },
+          "offers": [
+            { "type": "discount", "value": "10%", "expires": "2025-02-25" }
+          ]
+        },
+        {
+          "id": "6-2",
+          "name": {
+            "en": "Logitech MX Keys - Image 2",
+            "ar": "لوجيتك MX Keys - صورة 2"
+          },
+          "brand": "Logitech",
+          "category": "Keyboards",
+          "price": 105,
+          "currency": "USD",
+          "discount": 8,
+          "available": true,
+          "stock": 38,
+          "description": {
+            "en": "Ergonomic wireless keyboard with soft keys and durable design.",
+            "ar": "لوحة مفاتيح لاسلكية مريحة مع مفاتيح ناعمة وتصميم متين."
+          },
+          "images": ["/images/keyboards/Image(18).png"],
+          "features": {
+            "type": "Mechanical",
+            "backlit": "Yes",
+            "battery_life": "12 days"
+          },
+          "ratings": { "average": 4.6, "total_reviews": 130 },
+          "offers": [
+            { "type": "discount", "value": "8%", "expires": "2025-03-01" }
+          ]
+        }
+      ]
+    }
+  ]
+}
