@@ -4,33 +4,7 @@ import { motion } from "framer-motion";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
-import { useRef } from "react";
-import * as THREE from "three";
-
-
-const HPLaptopModel = () => {
-  const gltf = useGLTF("/images/watches/ring.glb");
-  const modelRef = useRef<THREE.Object3D>(null);
-
-  useFrame(({ clock }) => {
-    if (modelRef.current) {
-      const t = clock.getElapsedTime();
-      modelRef.current.position.y = Math.sin(t) * 0.1 - 1.2; 
-      modelRef.current.rotation.y = Math.sin(t * 0.5) * 0.1; 
-    }
-  });
-
-  return (
-    <primitive
-      ref={modelRef}
-      object={gltf.scene}
-      scale={1}
-      position={[1.3, -0.5, 0.5]}
-    />
-  );
-};
+import Image from "next/image";
 
 const LargeBanner = () => {
   return (
@@ -42,11 +16,13 @@ const LargeBanner = () => {
           </div>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 leading-tight">
-          CASIO Classic Elegance
+            CASIO Classic Elegance
           </h1>
 
           <p className="text-gray-600 text-sm md:text-base max-w-md">
-          Discover timeless sophistication with the Casio watch – a perfect blend of precision, durability, and sleek design, crafted for every occasion.
+            Discover timeless sophistication with the Casio watch – a perfect
+            blend of precision, durability, and sleek design, crafted for every
+            occasion.
           </p>
 
           <Link
@@ -58,23 +34,21 @@ const LargeBanner = () => {
           </Link>
         </div>
 
+        {/* ✅ استبدال المجسم الثلاثي الأبعاد بصورة ثابتة للساعة */}
         <motion.div
-          className="relative w-3/4 md:w-1/3 lg:w-1/4 "
+          className="relative w-3/4 md:w-1/3 lg:w-1/4"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          <Canvas>
-            <ambientLight intensity={2} />
-            <directionalLight position={[3, 3, 5]} intensity={2} />
-            <OrbitControls
-              enableZoom={false}
-              enablePan={false}
-              autoRotate={false}
-            />
-            <HPLaptopModel />
-          </Canvas>
+          <Image
+            src="/images/headphones/Image(16).png" // ضع المسار الصحيح لصورة الساعة
+            alt="Casio Classic Elegance"
+            width={500}
+            height={500}
+            className="w-full h-auto object-contain drop-shadow-xl hover:scale-105 transition-all duration-300"
+          />
         </motion.div>
       </div>
     </section>
